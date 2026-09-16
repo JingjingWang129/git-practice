@@ -6,3 +6,7 @@
 ## Why I found it interesting: 
 The article’s most significant contribution to software engineering methodology lies in shifting the autonomous driving software architecture from a model based on "post-hoc summarization" to one of "standards-driven, requirements-led" engineering design. Rather than basing the design on a specific vehicle or competition experience, the authors start with the SAE J3016 standard to derive functional requirements and map them to functional components—thereby ensuring traceability between requirements and components—while also incorporating the NIST RCS reference architecture from the robotics field. Regarding functional decomposition, the article emphasizes atomization, treating features such as lane keeping and automatic parking as "composable functions" that support incremental development and distributed outsourcing. Furthermore, data management and system safety management are treated as independent cross-cutting concerns to avoid coupling with real-time control logic; the article also candidly acknowledges gaps in ISO 26262 regarding safety reasoning, thereby leaving room for the future evolution of standards.
 
+## Comment from Tracy Wang (TracyWang0904)
+
+Autonomous vehicles may look effortless to drive, but the effort required behind the scenes during development is thousands of times greater than that of a regular car. I think this reflects a broader truth about tools in general. The more effort invested in the preparation phase, the more effortless the tool becomes to use.
+
